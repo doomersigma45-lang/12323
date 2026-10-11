@@ -68,8 +68,8 @@ public final class Config {
         b.pop();
 
         b.push("zombies");
-        ZOMBIE_HEALTH = b.comment("Warden = 500 HP / 30 de dano").defineInRange("health", 700.0, 1.0, 1024.0);
-        ZOMBIE_DAMAGE = b.defineInRange("damage", 40.0, 1.0, 2048.0);
+        ZOMBIE_HEALTH = b.comment("Zumbi normal = 20 HP").defineInRange("health", 40.0, 1.0, 1024.0);
+        ZOMBIE_DAMAGE = b.defineInRange("damage", 15.0, 1.0, 2048.0);
         ZOMBIE_SPEED = b.comment("Zumbi normal = 0.23").defineInRange("speed", 0.36, 0.05, 2.0);
         ZOMBIE_ARMOR = b.defineInRange("armor", 20.0, 0.0, 30.0);
         ZOMBIE_KB_RESIST = b.defineInRange("knockbackResistance", 0.8, 0.0, 1.0);
