@@ -30,10 +30,10 @@ public final class Ambient {
             }
         }
 
-        if (mob.tickCount % 200 == 100) {
+        if (mob.tickCount % 400 == 200) {
             for (ServerPlayer p : sl.players()) {
                 if (p.isCreative() || p.isSpectator()) continue;
-                if (p.distanceToSqr(mob) < 24.0 * 24.0) {
+                if (p.distanceToSqr(mob) < 14.0 * 14.0) {
                     p.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 120, 0, false, false));
                     sl.playSound(null, p.getX(), p.getY(), p.getZ(), SoundEvents.WARDEN_HEARTBEAT,
                             SoundSource.HOSTILE, 1.0F, 0.9F + mob.getRandom().nextFloat() * 0.2F);

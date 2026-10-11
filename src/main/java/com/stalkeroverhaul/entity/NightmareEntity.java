@@ -56,6 +56,7 @@ public abstract class NightmareEntity extends Monster implements GeoEntity {
     private int chaseSoundClock;
     private int climbSoundClock;
     private int calmTicks;
+    private int lastSpottedSound = -10000;
     private boolean wasHunting;
 
     protected NightmareEntity(EntityType<? extends Monster> type, Level level, String animPrefix,
@@ -147,10 +148,13 @@ public abstract class NightmareEntity extends Monster implements GeoEntity {
             calmTicks = 0;
             // mantém a caçada enquanto o jogador estiver perto
             if (getTarget() instanceof Player p && distanceToSqr(p) < 24.0 * 24.0) StalkState.startHunt(this);
-            if (!wasHunting) playSet(sounds().spotted, 3.0F);
+            if (!wasHunting && tickCount - lastSpottedSound > 600) {
+                lastSpottedSound = tickCount;
+                playSet(sounds().spotted, 1.5F);
+            }
             if (--chaseSoundClock <= 0) {
-                chaseSoundClock = 100;
-                playRandom(sounds().chase, 3.0F);
+                chaseSoundClock = 160 + this.random.nextInt(100);
+                playRandom(sounds().chase, 1.5F);
             }
         } else {
             calmTicks++;
@@ -165,7 +169,7 @@ public abstract class NightmareEntity extends Monster implements GeoEntity {
         if (climb != this.entityData.get(CLIMBING)) this.entityData.set(CLIMBING, climb);
         if (climb && --climbSoundClock <= 0) {
             climbSoundClock = 8;
-            playRandom(sounds().climb, 2.0F);
+            playRandom(sounds().climb, 1.0F);
         }
     }
 
@@ -175,8 +179,13 @@ public abstract class NightmareEntity extends Monster implements GeoEntity {
     }
 
     // ---------- sons ----------
+    /** Só toca se algum jogador estiver perto o bastante para ouvir (evita sons "fantasma" à distância). */
+    private boolean playerNearby() {
+        return this.level().getNearestPlayer(this, 40.0) != null;
+    }
+
     private void playSet(RegistryObject<SoundEvent> s, float vol) {
-        if (s != null) this.level().playSound(null, getX(), getY(), getZ(), s.get(), SoundSource.HOSTILE, vol, 1.0F);
+        if (s != null && playerNearby()) this.level().playSound(null, getX(), getY(), getZ(), s.get(), SoundSource.HOSTILE, vol, 1.0F);
     }
 
     private void playRandom(List<RegistryObject<SoundEvent>> list, float vol) {
@@ -186,18 +195,18 @@ public abstract class NightmareEntity extends Monster implements GeoEntity {
 
     @Override
     protected SoundEvent getAmbientSound() {
-        if (isHuntingFlag() || sounds().ambient.isEmpty()) return null;
+        if (isHuntingFlag() || sounds().ambient.isEmpty() || !playerNearby()) return null;
         return sounds().ambient.get(this.random.nextInt(sounds().ambient.size())).get();
     }
 
     @Override
     public int getAmbientSoundInterval() {
-        return 400;
+        return 600;
     }
 
     @Override
     protected float getSoundVolume() {
-        return 2.0F;
+        return 1.2F;
     }
 
     @Override
