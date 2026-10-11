@@ -1,0 +1,327 @@
+{
+ "ud.cavenoise_1": {
+  "sounds": [
+   "stalker_overhaul:ud/cavenoise_1"
+  ]
+ },
+ "ud.cavenoise_2": {
+  "sounds": [
+   "stalker_overhaul:ud/cavenoise_2"
+  ]
+ },
+ "ud.cavenoise_3": {
+  "sounds": [
+   "stalker_overhaul:ud/cavenoise_3"
+  ]
+ },
+ "ud.cavenoise_4": {
+  "sounds": [
+   "stalker_overhaul:ud/cavenoise_4"
+  ]
+ },
+ "ud.chase_1": {
+  "sounds": [
+   "stalker_overhaul:ud/chase_1"
+  ]
+ },
+ "ud.chase_2": {
+  "sounds": [
+   "stalker_overhaul:ud/chase_2"
+  ]
+ },
+ "ud.chase_3": {
+  "sounds": [
+   "stalker_overhaul:ud/chase_3"
+  ]
+ },
+ "ud.chase_4": {
+  "sounds": [
+   "stalker_overhaul:ud/chase_4"
+  ]
+ },
+ "ud.chase_step_1": {
+  "sounds": [
+   "stalker_overhaul:ud/chase_step_1"
+  ]
+ },
+ "ud.chase_step_2": {
+  "sounds": [
+   "stalker_overhaul:ud/chase_step_2"
+  ]
+ },
+ "ud.chase_step_3": {
+  "sounds": [
+   "stalker_overhaul:ud/chase_step_3"
+  ]
+ },
+ "ud.chase_step_4": {
+  "sounds": [
+   "stalker_overhaul:ud/chase_step_4"
+  ]
+ },
+ "ud.death": {
+  "sounds": [
+   "stalker_overhaul:ud/death"
+  ]
+ },
+ "ud.disappear": {
+  "sounds": [
+   "stalker_overhaul:ud/disappear"
+  ]
+ },
+ "ud.dweller_death": {
+  "sounds": [
+   "stalker_overhaul:ud/dweller_death"
+  ]
+ },
+ "ud.dweller_hurt_1": {
+  "sounds": [
+   "stalker_overhaul:ud/dweller_hurt_1"
+  ]
+ },
+ "ud.dweller_hurt_2": {
+  "sounds": [
+   "stalker_overhaul:ud/dweller_hurt_2"
+  ]
+ },
+ "ud.dweller_hurt_3": {
+  "sounds": [
+   "stalker_overhaul:ud/dweller_hurt_3"
+  ]
+ },
+ "ud.dweller_hurt_4": {
+  "sounds": [
+   "stalker_overhaul:ud/dweller_hurt_4"
+  ]
+ },
+ "ud.flee_1": {
+  "sounds": [
+   "stalker_overhaul:ud/flee_1"
+  ]
+ },
+ "ud.flee_2": {
+  "sounds": [
+   "stalker_overhaul:ud/flee_2"
+  ]
+ },
+ "ud.hurt_1": {
+  "sounds": [
+   "stalker_overhaul:ud/hurt_1"
+  ]
+ },
+ "ud.hurt_2": {
+  "sounds": [
+   "stalker_overhaul:ud/hurt_2"
+  ]
+ },
+ "ud.hurt_3": {
+  "sounds": [
+   "stalker_overhaul:ud/hurt_3"
+  ]
+ },
+ "ud.hurt_4": {
+  "sounds": [
+   "stalker_overhaul:ud/hurt_4"
+  ]
+ },
+ "ud.spotted": {
+  "sounds": [
+   "stalker_overhaul:ud/spotted"
+  ]
+ },
+ "cd.cavenoise_1": {
+  "sounds": [
+   "stalker_overhaul:cd/cavenoise_1"
+  ]
+ },
+ "cd.cavenoise_2": {
+  "sounds": [
+   "stalker_overhaul:cd/cavenoise_2"
+  ]
+ },
+ "cd.cavenoise_3": {
+  "sounds": [
+   "stalker_overhaul:cd/cavenoise_3"
+  ]
+ },
+ "cd.cavenoise_4": {
+  "sounds": [
+   "stalker_overhaul:cd/cavenoise_4"
+  ]
+ },
+ "cd.chase_1": {
+  "sounds": [
+   "stalker_overhaul:cd/chase_1"
+  ]
+ },
+ "cd.chase_2": {
+  "sounds": [
+   "stalker_overhaul:cd/chase_2"
+  ]
+ },
+ "cd.chase_3": {
+  "sounds": [
+   "stalker_overhaul:cd/chase_3"
+  ]
+ },
+ "cd.chase_4": {
+  "sounds": [
+   "stalker_overhaul:cd/chase_4"
+  ]
+ },
+ "cd.chase_step_1": {
+  "sounds": [
+   "stalker_overhaul:cd/chase_step_1"
+  ]
+ },
+ "cd.chase_step_2": {
+  "sounds": [
+   "stalker_overhaul:cd/chase_step_2"
+  ]
+ },
+ "cd.chase_step_3": {
+  "sounds": [
+   "stalker_overhaul:cd/chase_step_3"
+  ]
+ },
+ "cd.chase_step_4": {
+  "sounds": [
+   "stalker_overhaul:cd/chase_step_4"
+  ]
+ },
+ "cd.climb_1": {
+  "sounds": [
+   "stalker_overhaul:cd/climb_1"
+  ]
+ },
+ "cd.climb_2": {
+  "sounds": [
+   "stalker_overhaul:cd/climb_2"
+  ]
+ },
+ "cd.climb_3": {
+  "sounds": [
+   "stalker_overhaul:cd/climb_3"
+  ]
+ },
+ "cd.climb_4": {
+  "sounds": [
+   "stalker_overhaul:cd/climb_4"
+  ]
+ },
+ "cd.climb_5": {
+  "sounds": [
+   "stalker_overhaul:cd/climb_5"
+  ]
+ },
+ "cd.climb_6": {
+  "sounds": [
+   "stalker_overhaul:cd/climb_6"
+  ]
+ },
+ "cd.climb_7": {
+  "sounds": [
+   "stalker_overhaul:cd/climb_7"
+  ]
+ },
+ "cd.climb_8": {
+  "sounds": [
+   "stalker_overhaul:cd/climb_8"
+  ]
+ },
+ "cd.death": {
+  "sounds": [
+   "stalker_overhaul:cd/death"
+  ]
+ },
+ "cd.disappear": {
+  "sounds": [
+   "stalker_overhaul:cd/disappear"
+  ]
+ },
+ "cd.dweller_death": {
+  "sounds": [
+   "stalker_overhaul:cd/dweller_death"
+  ]
+ },
+ "cd.dweller_hurt_1": {
+  "sounds": [
+   "stalker_overhaul:cd/dweller_hurt_1"
+  ]
+ },
+ "cd.dweller_hurt_2": {
+  "sounds": [
+   "stalker_overhaul:cd/dweller_hurt_2"
+  ]
+ },
+ "cd.dweller_hurt_3": {
+  "sounds": [
+   "stalker_overhaul:cd/dweller_hurt_3"
+  ]
+ },
+ "cd.dweller_hurt_4": {
+  "sounds": [
+   "stalker_overhaul:cd/dweller_hurt_4"
+  ]
+ },
+ "cd.flee_1": {
+  "sounds": [
+   "stalker_overhaul:cd/flee_1"
+  ]
+ },
+ "cd.flee_2": {
+  "sounds": [
+   "stalker_overhaul:cd/flee_2"
+  ]
+ },
+ "cd.hurt_1": {
+  "sounds": [
+   "stalker_overhaul:cd/hurt_1"
+  ]
+ },
+ "cd.hurt_2": {
+  "sounds": [
+   "stalker_overhaul:cd/hurt_2"
+  ]
+ },
+ "cd.hurt_3": {
+  "sounds": [
+   "stalker_overhaul:cd/hurt_3"
+  ]
+ },
+ "cd.hurt_4": {
+  "sounds": [
+   "stalker_overhaul:cd/hurt_4"
+  ]
+ },
+ "cd.spotted": {
+  "sounds": [
+   "stalker_overhaul:cd/spotted"
+  ]
+ },
+ "cd.stalk_1": {
+  "sounds": [
+   "stalker_overhaul:cd/stalk_1"
+  ]
+ },
+ "cd.stalk_2": {
+  "sounds": [
+   "stalker_overhaul:cd/stalk_2"
+  ]
+ },
+ "cd.stalk_3": {
+  "sounds": [
+   "stalker_overhaul:cd/stalk_3"
+  ]
+ },
+ "cd.stalk_4": {
+  "sounds": [
+   "stalker_overhaul:cd/stalk_4"
+  ]
+ },
+ "cd.stalk_5": {
+  "sounds": [
+   "stalker_overhaul:cd/stalk_5"
+  ]
+ }
+}

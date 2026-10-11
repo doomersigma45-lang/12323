@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="stalker_overhaul"
+version="1.0.0"
+displayName="Stalker Overhaul"
+authors="Baseado em Unfortunate Development (Cadentem) e Cave Noise (Gargin)"
+credits="Modelos, animações, texturas e sons de Unfortunate Development (Cadentem, MIT) e Cave Noise (Gargin, MIT)"
+description='''Portes para 1.20.1 do Unfortunate Development e do Cave Dweller, mais fortes e com comportamento de stalker. Baseado em assets dos mods Unfortunate Development (Cadentem) e Cave Noise (Gargin), ambos MIT.'''
+
+[[dependencies.stalker_overhaul]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.stalker_overhaul]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.stalker_overhaul]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[4.2,)"
+    ordering="AFTER"
+    side="BOTH"
